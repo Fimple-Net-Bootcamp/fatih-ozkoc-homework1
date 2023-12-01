@@ -11,6 +11,7 @@ namespace LibraryOtomationv2.Manager
 {
     public class LibraryManager
     {
+        // Ödünç verme politikaları için nesnelerin türetilmesi
         static ILendingPolicy longTermPolicy = new LongTermLending();
         static ILendingPolicy shortTermPolicy = new ShortTermLending();
         private Library library;
